@@ -1,8 +1,11 @@
 git허브 cmd 사용법
-git 초기화 : git init
-git 레지스토리 설정 : git remote add origin https://github.com/계정명/레포지토리명
-git 상태 확인 : git state
-git 변경된 파일 추가 : git add .
-add한 파일 레포지토리에 저장 : git commit -m "메세지 내용"
-로컬 레포지토리를 페이지에 업로드 : git push origin 브랜치명 
-페이지 내용 로컬에 저장 : git pull origin 브랜치명
+
+git init : 깃 초기화
+git remote origin 레포지토리 url : 깃 레지스토리 설정
+git state : 깃 상태 확인
+git add . : 깃 변경된 파일 추가
+git commit -m "메세지 내용" : add 한 파일 로컬 레포지토리에 저장
+git push origin 브랜치명 : 로컬에 저장한거 원격 레포지토리에 전송
+git pull origin 브랜치명 : 원격에 있는 내용 로컬로 전송
+
+git clone url : 깃 다운로드
